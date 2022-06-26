@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using RestAPIProjectForRepositoryPattern.Entities;
 using RestAPIProjectForRepositoryPattern.Repository;
 
 namespace RestAPIProjectForRepositoryPattern.Controllers
@@ -20,15 +21,18 @@ namespace RestAPIProjectForRepositoryPattern.Controllers
         }
 
         [HttpGet]
-        public ActionResult GetPopularDevelopers([FromQueryAttribute] int count)
+        public ActionResult<IEnumerable<Developer>> GetPopularDevelopers([FromQueryAttribute] int count)
         {
            var result =  _unitOfWork.developerRepository.GetPopularDevelopers(count).ToList();
 
             if (result.Count > 1)
             {
-                return Ok();
+                return result.ToList();
             }
-            return Ok(result);
+            else
+            {
+              throw new Exception();
+            }
             
         }
     }

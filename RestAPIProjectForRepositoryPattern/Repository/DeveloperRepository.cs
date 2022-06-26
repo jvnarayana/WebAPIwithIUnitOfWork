@@ -19,7 +19,7 @@ namespace RestAPIProjectForRepositoryPattern.Repository
 
         public IEnumerable<Developer> GetPopularDevelopers(int count)
         {
-            return _appilicationDBContext.developers.OrderByDescending(x => x.Id).Take(count).ToList();
+            return _appilicationDBContext.Set<Developer>().Take(count).ToList();
         }
     }
 }

@@ -16,11 +16,12 @@ namespace RestAPIProjectForRepositoryPattern.Repository
             _appilicationDBContext = appilicationDBContext;
         }
 
-        public void Add(Project entity)
+        public void Add(Project project)
         {
             try
             {
-                _appilicationDBContext.SaveChanges();
+                _appilicationDBContext.Set<Project>().Add(project);
+               
             }
             catch (Exception ex)
             {
@@ -32,13 +33,13 @@ namespace RestAPIProjectForRepositoryPattern.Repository
 
         public IEnumerable<Project> GetProjects()
         {
-            return _appilicationDBContext.projects.ToList();
+            return _appilicationDBContext.Set<Project>().ToList();
 
         }
 
         public Project GetById(int id)
         {
-            return _appilicationDBContext.projects.Where(x => x.ProjectId == id).FirstOrDefault();
+            return _appilicationDBContext.Set<Project>().Find(id);
         }
 
     }

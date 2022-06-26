@@ -1,12 +1,30 @@
-﻿<Properties StartupConfiguration="{C05CE8F4-CE18-4D0B-B5CB-3BD8E9D58F82}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{C05CE8F4-CE18-4D0B-B5CB-3BD8E9D58F82}|Default">
   <MonoDevelop.Ide.ItemProperties.RestAPIProjectForRepositoryPattern PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="RestAPIProjectForRepositoryPattern/Repository/DeveloperRepository.cs" Line="23" Column="1" />
+      <File FileName="RestAPIProjectForRepositoryPattern/Repository/IGenericRepository.cs" Line="19" Column="5" />
+      <File FileName="RestAPIProjectForRepositoryPattern/Repository/GenericRepository.cs" Line="37" Column="1" />
+      <File FileName="RestAPIProjectForRepositoryPattern/Repository/IProjectRepository.cs" Line="12" Column="33" />
+      <File FileName="RestAPIProjectForRepositoryPattern/Repository/ProjectRepository.cs" Line="18" Column="1" />
+      <File FileName="RestAPIProjectForRepositoryPattern/Controllers/ProjectController.cs" Line="83" Column="1" />
+      <File FileName="RestAPIProjectForRepositoryPattern/Repository/IDeveloperRepository.cs" Line="8" Column="59" />
+      <File FileName="RestAPIProjectForRepositoryPattern/Controllers/DeveloperController.cs" Line="30" Column="30" />
+      <File FileName="RestAPIProjectForRepositoryPattern/Entities/Developer.cs" Line="8" Column="1" />
+      <File FileName="RestAPIProjectForRepositoryPattern/appsettings.json" Line="12" Column="99" />
+      <File FileName="RestAPIProjectForRepositoryPattern/Program.cs" Line="12" Column="25" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="RestAPIProjectForRepositoryPattern" expanded="True" selected="True">
+          <Node name="RestAPIProjectForRepositoryPattern" expanded="True">
             <Node name="RestAPIProjectForRepositoryPattern" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DBAccess" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Repository" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -16,7 +34,14 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/venkatajadda/Projects/GitProjects/WebAPIwithIUnitOfWork/RestAPIProjectForRepositoryPattern/Repository/ProjectRepository.cs" relfile="RestAPIProjectForRepositoryPattern/Repository/ProjectRepository.cs" line="35" column="1" />
+      <Breakpoint file="/Users/venkatajadda/Projects/GitProjects/WebAPIwithIUnitOfWork/RestAPIProjectForRepositoryPattern/Controllers/ProjectController.cs" relfile="RestAPIProjectForRepositoryPattern/Controllers/ProjectController.cs" line="17" column="1" />
+      <Breakpoint file="/Users/venkatajadda/Projects/GitProjects/WebAPIwithIUnitOfWork/RestAPIProjectForRepositoryPattern/Controllers/ProjectController.cs" relfile="RestAPIProjectForRepositoryPattern/Controllers/ProjectController.cs" line="37" column="1" />
+      <Breakpoint file="/Users/venkatajadda/Projects/GitProjects/WebAPIwithIUnitOfWork/RestAPIProjectForRepositoryPattern/Controllers/ProjectController.cs" relfile="RestAPIProjectForRepositoryPattern/Controllers/ProjectController.cs" line="83" column="1" />
+      <Breakpoint file="/Users/venkatajadda/Projects/GitProjects/WebAPIwithIUnitOfWork/RestAPIProjectForRepositoryPattern/Controllers/DeveloperController.cs" relfile="RestAPIProjectForRepositoryPattern/Controllers/DeveloperController.cs" line="14" column="1" />
+      <Breakpoint file="/Users/venkatajadda/Projects/GitProjects/WebAPIwithIUnitOfWork/RestAPIProjectForRepositoryPattern/Controllers/DeveloperController.cs" relfile="RestAPIProjectForRepositoryPattern/Controllers/DeveloperController.cs" line="25" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
