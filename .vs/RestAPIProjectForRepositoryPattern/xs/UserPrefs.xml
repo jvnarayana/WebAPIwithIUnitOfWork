@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{C05CE8F4-CE18-4D0B-B5CB-3BD8E9D58F82}|Default">
+  <MonoDevelop.Ide.ItemProperties.RestAPIProjectForRepositoryPattern PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RestAPIProjectForRepositoryPattern" expanded="True" selected="True">
+            <Node name="RestAPIProjectForRepositoryPattern" expanded="True">
+              <Node name="Repository" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
