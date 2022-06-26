@@ -14,6 +14,8 @@ Unit of Work Pattern is a design pattern with which you can expose various respo
 What happens when there are quite more than 2 repositories. It would not be practical to keep adding new injections every now and then. Inorder to wrap all the Repositories to a Single Object, we use Unit Of Work.
 
 Unit of Work is responsible for exposing the available Repositories and to Commit Changes to the DataSource ensuring a full transaction, without loss of data.
+
+
 <img width="1047" alt="Screen Shot 2022-06-26 at 12 11 58 AM" src="https://user-images.githubusercontent.com/29008310/175800368-426faacb-2bbe-403e-b2ab-8e11033a5523.png">
 
 
